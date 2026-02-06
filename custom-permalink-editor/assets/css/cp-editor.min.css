@@ -1,83 +1,49 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
-.wrap{
-    margin:2em auto 1em;
-    max-width:1090px;
-    background: #fff;
-    font-family: 'Roboto', sans-serif;
-}
-.wrap h2{
-    font-weight: 500;
-    font-size: 20px;
+.kcg_admin_container {
+  font-size: 16px;
 }
 
-.wrap .float{
-    width:calc(100% - 188px);
-    float:left;
-    box-sizing:border-box
+.kcg_admin_container img {
+  background-color: #fff;
+  padding: 10px;
 }
-.wrap .float:nth-child(2){
-    width:128px;
-    margin:40px 0 70px 50px
+
+.cp-major-update-warning {
+  display: flex;
+  margin-block-end: 5px;
+  max-width: 1000px;
 }
-.wrap h1{
-    margin:40px auto 20px;
-    font-size:2.5em
+
+.cp-major-update-warning__separator {
+  margin: 15px -12px;
 }
-.tagline p{
-    font-size:1.3em;
-    margin:0 auto 1em
+
+.cp-major-update-warning__icon {
+  font-size: 17px;
+  margin-inline-end: 9px;
+  margin-inline-start: 2px;
 }
-p a{
-    text-decoration:none
+
+.cp-major-update-warning__title {
+  font-weight: 600;
+  margin-block-end: 10px;
 }
-.box>a{
-    display:inline-block;
-    float:right;
-    color:#fff;
-    background:linear-gradient(-35deg,rgba(216,225,231,.8) 12%,#b5c6d0 13%);
-    text-decoration:none;
-    font-size:20px;
-    padding:8px 17px;
-    border-radius:3px;
-    transition:all 250ms ease
+
+.cp-major-update-warning + p {
+  display: none;
 }
-.box>a:hover{
-    font-size:22px
+
+.notice-success .cp-major-update-warning__separator {
+  border: 1px solid #46b450;
 }
-#footer-left a{
-    text-decoration:underline
+
+.notice-success .cp-major-update-warning__icon {
+  color: #79ba49;
 }
-a .star svg polygon{
-    fill:#f9d539
+
+.notice-warning .cp-major-update-warning__separator {
+  border: 1px solid #ffb900;
 }
-a .star svg:hover polygon{
-    fill:#ff7c00
-}
-input#custom-permalink-editor-post-slug {
-    border-radius: 0px;
-    border: 1px solid #777;
-    color: #333;
-}
-.kcg_admin_parent_container {
-    display: flex;
-    width: 100%;
-    max-width: 96%;
-}
-.wrap{
-    padding: 30px 30px 30px 30px;
-}
-.kcg_admin_container {
-    padding: 10px 10px;
-    flex: 0 0 50%;
-    max-width: 50%;
-}
-.plugin_image{
-    max-width:100%;
-}
-@media (max-width:450px){
-    .wrap h1{
-        margin:0 0 150px;
-        font-size:2em;
-        width:300px
-    }
+
+.notice-warning .cp-major-update-warning__icon {
+  color: #f56e28;
 }

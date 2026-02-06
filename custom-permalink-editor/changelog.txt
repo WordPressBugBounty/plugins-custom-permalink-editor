@@ -2,7 +2,17 @@
 
 This file contains changelog.
 
-= 1.0.0 - Nov 1, 2021 =
+= 1.0.6 - Jan 11, 2026 =
+* Feature
+    * Custom post types with existing custom permalinks will continue to work
+    * Existing custom URLs for custom post types are preserved and remain functional
+* Updates
+    * New custom permalinks for custom post types cannot be created (Pro feature only)
+    * Custom post type edit screen now shows existing custom URL in read-only mode
+    * Pro upgrade message displayed for all custom post type permalink editing
+    * Posts without existing custom URLs show Pro upgrade message
+
+= 1.0.5 - Oct 30, 2025 =
 * Initial Release
 
 = 1.0.1 - Nov 1, 2021 =
@@ -13,5 +23,9 @@ This file contains changelog.
 * Bugs
     * Bug Fixing
 
-
-
+= 1.0.5 - Oct 30, 2025 =
+* Bugs
+    * XSS Vulnerability Fixes
+    * PHP 8 code updates and fixes
+* Core updates
+    * Permalink edit enabled for post and page only
